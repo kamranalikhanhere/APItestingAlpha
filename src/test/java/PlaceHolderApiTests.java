@@ -1,8 +1,5 @@
-import Util.BaseTest;
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
+import util.BaseTest;
 import model.Post;
-import org.junit.BeforeClass;
 import org.junit.jupiter.api.Test;
 
 

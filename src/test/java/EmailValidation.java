@@ -1,4 +1,4 @@
-import Util.EmailValidator;
+import util.EmailValidator;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;

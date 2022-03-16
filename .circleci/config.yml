@@ -1,0 +1,18 @@
+version: 2.1
+
+jobs:
+  setup-and-test:
+    docker:
+      - image: cimg/openjdk:11.0
+    steps:
+      - checkout
+      - run:
+          name: Test
+          command: mvn clean test
+
+workflows:
+  # Named the workflow "mobiquity"
+  mobiquity:
+    # Run the mobiquity/run job in its own container
+    jobs:
+      - setup-and-test

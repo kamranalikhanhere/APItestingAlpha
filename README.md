@@ -13,7 +13,7 @@ IntelliJ IDEA
 
 Project Structure
 
-models: This directory contains all the response pojos of each json placeholder endpoint api: This package contains methods testcases: This package contains Test Cases util: This package contains Utility Classes constant: This package contains Constant Class
+models: This directory contains all the response pojos of each json placeholder endpoint api: This package contains methods testcases: This package contains Test Cases.
 
 Installation
 
